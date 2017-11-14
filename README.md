@@ -1,8 +1,8 @@
 # contboyceindex
 How to estimate the continuous Boyce Index proposed by Hirzel et al. 2006.
 
-This R script aims to estimate the continuous Boyce Index proposed by Hirzel et al. 2006
-(see also Boyce et al. 2002) to evaluate the accuracy of predictions from spatial models.
+The R script is aimed at estimating the continuous Boyce Index proposed by Hirzel et al. 2006
+(see also Boyce et al. 2002) to evaluate the accuracy of predictions yielded from spatial models.
 
 References used:
 
