@@ -28,10 +28,10 @@ w<-0.01#window size. This parameter is adjustable by user (see Hirzel et al. 200
 vectori<-NULL
 boyce<-NULL
 for (i in seq(0,0.99,w)){
-  pitotal<-length(which(datos$presence==1))#total number of evaluation presences
-  pipresence<-length(which(datos$presence==1&datos$suitability>=i&datos$suitability<(i+w)))#number of evaluation points predicted by the model to fall in the habitat suitability class i
-  aitotal<-length(datos$suitability)#overall number of cells in the whole study area
-  aicategory<-length(which(datos$suitability>=i&datos$suitability<(i+w)))#number of grid cells belonging to the habitat suitability class i
+  pitotal<-length(which(data$presence==1))#total number of evaluation presences
+  pipresence<-length(which(data$presence==1&data$suitability>=i&data$suitability<(i+w)))#number of evaluation points predicted by the model to fall in the habitat suitability class i
+  aitotal<-length(data$suitability)#overall number of cells in the whole study area
+  aicategory<-length(which(data$suitability>=i&data$suitability<(i+w)))#number of grid cells belonging to the habitat suitability class i
   
   Pi<-pipresence/pitotal#predicted frequency
   Ei<-aicategory/aitotal#expected frequency
