@@ -17,7 +17,7 @@
 # Evaluating resource selection functions. Ecol. Model. 157,281-300
 
 #####################
-# The input data must be a matrix with two columns called "suitability" (i.e., logistic output from the your model) 
+# The input data must be a matrix with two columns called "suitability" (i.e., logistic output from the model) 
 # and "presence" (i.e., one option for each location-pixel: 1 or 0).
 
 # Note: the script assumes that the input matrix is called "data".
